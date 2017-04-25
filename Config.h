@@ -6,6 +6,7 @@
    Source :   https://github.com/carloslancha/FrusSaber
 */
 
+#define DEBUG_LIGHT
 #define DEBUG_MPU
 
 /* ---------------------------------------------------*/
@@ -18,3 +19,17 @@
 #define XGYROOFFSET 98
 #define YGYROOFFSET -27
 #define ZGYROOFFSET -19
+
+/* ---------------------------------------------------*/
+/* LIGHT DEFINITIONS                                  */
+/* ---------------------------------------------------*/
+
+#define FLASH_COLOR0 250
+#define FLASH_COLOR1 180
+#define FLASH_COLOR2 0
+#define FLASH_DURATION 100
+#define LIGHT_PIN 6
+#define MAIN_COLOR0 0
+#define MAIN_COLOR1 0
+#define MAIN_COLOR2 255
+#define STRIP_PIXELS 7
